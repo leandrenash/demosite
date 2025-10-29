@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+/* Gradients for orb */
+.orb-gradient {
+  background-image: radial-gradient(closest-side, rgba(255,255,255,0.25), transparent),
+    conic-gradient(from 180deg at 50% 50%, theme('colors.accent') 0deg, theme('colors.accent2') 360deg);
+}
+
+
